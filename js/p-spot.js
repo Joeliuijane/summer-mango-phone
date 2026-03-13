@@ -127,7 +127,7 @@ const POSTS = [
     date: "2025.10.28",
     tag: "玉井的變化",
     excerpt: "從童年苦力到機具輔助，果園日常映照出農業與時代的轉變。",
-    image: "img/foodgray.jpeg",
+    image: "img/夜市.jpg",
     href: "p-view5.html"
   }
 ];
