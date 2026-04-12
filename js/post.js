@@ -63,7 +63,7 @@
       const prevTitle =
         L[idx - 1].querySelector('.ftx-title')?.textContent || '';
       btnPrev.disabled = false;
-      btnPrev.textContent = `‹ 上一段：${prevTitle}`;
+      btnPrev.textContent = `‹ ${prevTitle}`;
     }
   }
 
@@ -76,7 +76,7 @@
       const nextTitle =
         L[idx + 1].querySelector('.ftx-title')?.textContent || '';
       btnNext.disabled = false;
-      btnNext.textContent = `下一段：${nextTitle} ›`;
+      btnNext.textContent = `${nextTitle} ›`;
     }
   }
 }
