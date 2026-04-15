@@ -80,7 +80,7 @@ $(document).ready(function () {
 
 
 // ✅ 強制關掉 Pre Loader（避免一直轉圈圈）
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const loader = document.getElementById("loader");
   if (loader) loader.classList.remove("show");
 });
